@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0981B43820AE066A00FFAB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0981B43720AE066A00FFAB95 /* Assets.xcassets */; };
+		943F197C1DDB17240034A8F3 /* JXAStarSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F19751DDB17240034A8F3 /* JXAStarSearcher.m */; };
+		943F197D1DDB17240034A8F3 /* JXBreadthFirstSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F19771DDB17240034A8F3 /* JXBreadthFirstSearcher.m */; };
+		943F197E1DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F19791DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.m */; };
+		943F197F1DDB17240034A8F3 /* JXPathSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F197B1DDB17240034A8F3 /* JXPathSearcher.m */; };
+		943F19831DDB17320034A8F3 /* JXPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F19821DDB17320034A8F3 /* JXPriorityQueue.m */; };
+		945098EA1DD5968A0008F3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 945098E91DD5968A0008F3C8 /* main.m */; };
+		945098ED1DD5968A0008F3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 945098EC1DD5968A0008F3C8 /* AppDelegate.m */; };
+		945098F01DD5968B0008F3C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945098EF1DD5968B0008F3C8 /* ViewController.m */; };
+		945098F31DD5968B0008F3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945098F11DD5968B0008F3C8 /* Main.storyboard */; };
+		945098F81DD5968B0008F3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945098F61DD5968B0008F3C8 /* LaunchScreen.storyboard */; };
+		945099011DD5A8A00008F3C8 /* PuzzleStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 945099001DD5A8A00008F3C8 /* PuzzleStatus.m */; };
+		945099041DD5AAA20008F3C8 /* PuzzlePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 945099031DD5AAA20008F3C8 /* PuzzlePiece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0981B43720AE066A00FFAB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PuzzleGame/Assets.xcassets; sourceTree = "<group>"; };
+		09D8C30520938CF20039A8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		943F19741DDB17240034A8F3 /* JXAStarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAStarSearcher.h; sourceTree = "<group>"; };
+		943F19751DDB17240034A8F3 /* JXAStarSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAStarSearcher.m; sourceTree = "<group>"; };
+		943F19761DDB17240034A8F3 /* JXBreadthFirstSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBreadthFirstSearcher.h; sourceTree = "<group>"; };
+		943F19771DDB17240034A8F3 /* JXBreadthFirstSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBreadthFirstSearcher.m; sourceTree = "<group>"; };
+		943F19781DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDoubleBreadthFirstSearcher.h; sourceTree = "<group>"; };
+		943F19791DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXDoubleBreadthFirstSearcher.m; sourceTree = "<group>"; };
+		943F197A1DDB17240034A8F3 /* JXPathSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPathSearcher.h; sourceTree = "<group>"; };
+		943F197B1DDB17240034A8F3 /* JXPathSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPathSearcher.m; sourceTree = "<group>"; };
+		943F19811DDB17320034A8F3 /* JXPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPriorityQueue.h; sourceTree = "<group>"; };
+		943F19821DDB17320034A8F3 /* JXPriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPriorityQueue.m; sourceTree = "<group>"; };
+		945098E51DD5968A0008F3C8 /* PuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945098E91DD5968A0008F3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		945098EB1DD5968A0008F3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		945098EC1DD5968A0008F3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		945098EE1DD5968A0008F3C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		945098EF1DD5968B0008F3C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		945098F21DD5968B0008F3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945098F71DD5968B0008F3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		945098F91DD5968B0008F3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945098FF1DD5A8A00008F3C8 /* PuzzleStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleStatus.h; sourceTree = "<group>"; };
+		945099001DD5A8A00008F3C8 /* PuzzleStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleStatus.m; sourceTree = "<group>"; };
+		945099021DD5AAA20008F3C8 /* PuzzlePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzlePiece.h; sourceTree = "<group>"; };
+		945099031DD5AAA20008F3C8 /* PuzzlePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzlePiece.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945098E21DD5968A0008F3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943F19731DDB17240034A8F3 /* JXPatchSearch */ = {
+			isa = PBXGroup;
+			children = (
+				943F197A1DDB17240034A8F3 /* JXPathSearcher.h */,
+				943F197B1DDB17240034A8F3 /* JXPathSearcher.m */,
+				943F19761DDB17240034A8F3 /* JXBreadthFirstSearcher.h */,
+				943F19771DDB17240034A8F3 /* JXBreadthFirstSearcher.m */,
+				943F19781DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.h */,
+				943F19791DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.m */,
+				943F19741DDB17240034A8F3 /* JXAStarSearcher.h */,
+				943F19751DDB17240034A8F3 /* JXAStarSearcher.m */,
+			);
+			path = JXPatchSearch;
+			sourceTree = "<group>";
+		};
+		943F19801DDB17320034A8F3 /* JXPriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+				943F19811DDB17320034A8F3 /* JXPriorityQueue.h */,
+				943F19821DDB17320034A8F3 /* JXPriorityQueue.m */,
+			);
+			path = JXPriorityQueue;
+			sourceTree = "<group>";
+		};
+		945098DC1DD5968A0008F3C8 = {
+			isa = PBXGroup;
+			children = (
+				0981B43720AE066A00FFAB95 /* Assets.xcassets */,
+				945098E71DD5968A0008F3C8 /* PuzzleGame */,
+				945098E61DD5968A0008F3C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945098E61DD5968A0008F3C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945098E51DD5968A0008F3C8 /* PuzzleGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945098E71DD5968A0008F3C8 /* PuzzleGame */ = {
+			isa = PBXGroup;
+			children = (
+				945098EB1DD5968A0008F3C8 /* AppDelegate.h */,
+				945098EC1DD5968A0008F3C8 /* AppDelegate.m */,
+				945098EE1DD5968A0008F3C8 /* ViewController.h */,
+				945098EF1DD5968B0008F3C8 /* ViewController.m */,
+				945098FF1DD5A8A00008F3C8 /* PuzzleStatus.h */,
+				945099001DD5A8A00008F3C8 /* PuzzleStatus.m */,
+				945099021DD5AAA20008F3C8 /* PuzzlePiece.h */,
+				945099031DD5AAA20008F3C8 /* PuzzlePiece.m */,
+				943F19731DDB17240034A8F3 /* JXPatchSearch */,
+				943F19801DDB17320034A8F3 /* JXPriorityQueue */,
+				945098F11DD5968B0008F3C8 /* Main.storyboard */,
+				945098F61DD5968B0008F3C8 /* LaunchScreen.storyboard */,
+				945098F91DD5968B0008F3C8 /* Info.plist */,
+				945098E81DD5968A0008F3C8 /* Supporting Files */,
+			);
+			path = PuzzleGame;
+			sourceTree = "<group>";
+		};
+		945098E81DD5968A0008F3C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945098E91DD5968A0008F3C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945098E41DD5968A0008F3C8 /* PuzzleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945098FC1DD5968B0008F3C8 /* Build configuration list for PBXNativeTarget "PuzzleGame" */;
+			buildPhases = (
+				945098E11DD5968A0008F3C8 /* Sources */,
+				945098E21DD5968A0008F3C8 /* Frameworks */,
+				945098E31DD5968A0008F3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleGame;
+			productName = PuzzleGame;
+			productReference = 945098E51DD5968A0008F3C8 /* PuzzleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945098DD1DD5968A0008F3C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JiongXing;
+				TargetAttributes = {
+					945098E41DD5968A0008F3C8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 47474547BQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 945098E01DD5968A0008F3C8 /* Build configuration list for PBXProject "PuzzleGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945098DC1DD5968A0008F3C8;
+			productRefGroup = 945098E61DD5968A0008F3C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945098E41DD5968A0008F3C8 /* PuzzleGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945098E31DD5968A0008F3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945098F81DD5968B0008F3C8 /* LaunchScreen.storyboard in Resources */,
+				0981B43820AE066A00FFAB95 /* Assets.xcassets in Resources */,
+				945098F31DD5968B0008F3C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945098E11DD5968A0008F3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945098F01DD5968B0008F3C8 /* ViewController.m in Sources */,
+				945098ED1DD5968A0008F3C8 /* AppDelegate.m in Sources */,
+				943F197C1DDB17240034A8F3 /* JXAStarSearcher.m in Sources */,
+				945098EA1DD5968A0008F3C8 /* main.m in Sources */,
+				945099011DD5A8A00008F3C8 /* PuzzleStatus.m in Sources */,
+				943F197E1DDB17240034A8F3 /* JXDoubleBreadthFirstSearcher.m in Sources */,
+				945099041DD5AAA20008F3C8 /* PuzzlePiece.m in Sources */,
+				943F197F1DDB17240034A8F3 /* JXPathSearcher.m in Sources */,
+				943F197D1DDB17240034A8F3 /* JXBreadthFirstSearcher.m in Sources */,
+				943F19831DDB17320034A8F3 /* JXPriorityQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		945098F11DD5968B0008F3C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945098F21DD5968B0008F3C8 /* Base */,
+				09D8C30520938CF20039A8D9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945098F61DD5968B0008F3C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945098F71DD5968B0008F3C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945098FA1DD5968B0008F3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		945098FB1DD5968B0008F3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945098FD1DD5968B0008F3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47474547BQ;
+				INFOPLIST_FILE = PuzzleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AI.BUCTCS1504;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		945098FE1DD5968B0008F3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47474547BQ;
+				INFOPLIST_FILE = PuzzleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AI.BUCTCS1504;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945098E01DD5968A0008F3C8 /* Build configuration list for PBXProject "PuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945098FA1DD5968B0008F3C8 /* Debug */,
+				945098FB1DD5968B0008F3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945098FC1DD5968B0008F3C8 /* Build configuration list for PBXNativeTarget "PuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945098FD1DD5968B0008F3C8 /* Debug */,
+				945098FE1DD5968B0008F3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945098DD1DD5968A0008F3C8 /* Project object */;
+}

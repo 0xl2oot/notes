@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "打乱"; ObjectID = "Ocs-QH-Fvw"; */
+"Ocs-QH-Fvw.normalTitle" = "打乱";
+
+/* Class = "UIButton"; normalTitle = "读取进度"; ObjectID = "R4p-S1-S8y"; */
+"R4p-S1-S8y.normalTitle" = "读取进度";
+
+/* Class = "UIButton"; normalTitle = "AI：A*算法"; ObjectID = "R9Z-vI-UHU"; */
+"R9Z-vI-UHU.normalTitle" = "AI：A*算法";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "RpX-Cv-l4o"; */
+"RpX-Cv-l4o.normalTitle" = "重置";
+
+/* Class = "UIButton"; normalTitle = "自动"; ObjectID = "VQK-jh-NvX"; */
+"VQK-jh-NvX.normalTitle" = "自动";
+
+/* Class = "UIButton"; normalTitle = "保存进度"; ObjectID = "duP-oQ-88r"; */
+"duP-oQ-88r.normalTitle" = "保存进度";
+
+/* Class = "UINavigationItem"; title = "Puzzle Game"; ObjectID = "eMG-TY-ijr"; */
+"eMG-TY-ijr.title" = "Puzzle Game";
+
+/* Class = "UIButton"; normalTitle = "难度：低"; ObjectID = "v77-Sw-6tk"; */
+"v77-Sw-6tk.normalTitle" = "难度：低";
+
+/* Class = "UIButton"; normalTitle = "选图"; ObjectID = "w06-2y-Fhd"; */
+"w06-2y-Fhd.normalTitle" = "选图";
